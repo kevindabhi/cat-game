@@ -1,0 +1,28 @@
+.main {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  }
+
+  .tomodachi{
+    border: 2px solid red;
+    min-height: 40vh;
+    text-align: center;
+  }
+
+  .tomodachi h1 {
+    margin-top: 10vh;
+    font-size: 60px;
+    color: red;
+
+  }
+
+  .buttons{
+    text-align: center;
+  }
+
+  #tomodachi_status {
+    text-align: center;
+    margin-top: 10vh;
+  }
