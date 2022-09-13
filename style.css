@@ -3,12 +3,17 @@
     width: 50%;
     border: 3px solid green;
     padding: 10px;
+    display: block;
+    width: fit-content;
   }
 
   .tomodachi{
     border: 2px solid red;
     min-height: 40vh;
     text-align: center;
+    display: block;
+    width: fit-content;
+    margin: auto;
   }
 
   .tomodachi h1 {
@@ -28,7 +33,12 @@
   }
 
   img {
-    border: blue 2px solid;
+  
     max-width: 300px;
     max-height: 300px;
+  }
+
+  #feed {
+    margin-top: 1rem;
+    font-size: 2rem;
   }
