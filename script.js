@@ -40,10 +40,13 @@ class Character {
 
       else if (i > 0){ console.log('Currently at ' + (i));
       glacius.food-= 10;
-      document.getElementById("tomodachi_status").innerHTML = "Fed and Happy :)"
+      //document.getElementById("tomodachi_status").innerHTML = "Fed and Happy :)"
+      document.getElementById("tomodachi_status").src="happpy.jpg"
+      
     }
       
     }, 1000);
+
 
    }
   
@@ -53,13 +56,13 @@ function hungry() {
   
   if (fd==0) { 
     // console.log("hungry");
-    document.getElementById("tomodachi_status").innerHTML = "Hungry and annoyed";
-
+    //document.getElementById("tomodachi_status").innerHTML = "Hungry and annoyed";
+    document.getElementById("tomodachi_status").src="annoyed.jpg"
     fd++;
     
   }
 
-
+  
   else if (fd>0) {clearInterval()}
    
 }
