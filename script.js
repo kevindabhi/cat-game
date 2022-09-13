@@ -57,7 +57,7 @@ function hungry() {
   if (fd==0) { 
     // console.log("hungry");
     //document.getElementById("tomodachi_status").innerHTML = "Hungry and annoyed";
-    document.getElementById("tomodachi_status").src="annoyed.jpg"
+    document.getElementById("tomodachi_status").src="cat-laser-eyes.gif"
     fd++;
     
   }
