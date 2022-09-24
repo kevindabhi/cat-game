@@ -1,45 +1,44 @@
 .main {
-    margin: auto;
-    width: 50%;
-    border: 3px solid green;
-    padding: 10px;
-    display: block;
-    width: fit-content;
-  }
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  display: block;
+  width: fit-content;
+}
 
-  .tomodachi{
-    border: 2px solid red;
-    min-height: 40vh;
-    text-align: center;
-    display: block;
-    width: fit-content;
-    margin: auto;
-  }
+.tomodachi {
+  border: 2px solid red;
+  min-height: 40vh;
+  text-align: center;
+  display: block;
+  width: fit-content;
+  margin: auto;
+}
 
-  .tomodachi h1 {
-    margin-top: 10vh;
-    font-size: 60px;
-    color: red;
+.tomodachi h1 {
+  margin-top: 10vh;
+  font-size: 60px;
+  color: red;
 
-  }
+}
 
-  .buttons{
-    text-align: center;
-  }
+.buttons {
+  text-align: center;
+}
 
-  #tomodachi_status {
-    text-align: center;
-    margin-top: 10vh;
-  }
+#tomodachi_status {
+  text-align: center;
+  margin-top: 10vh;
+}
 
-  img {
-  
-    max-width: 300px;
-    height: 300px;
-  }
-  
+img {
 
-  #feed {
-    padding-top: 1rem;
-    font-size: 2rem;  
-  }
+  max-width: 300px;
+  height: 300px;
+}
+
+#feed {
+  padding-top: 1rem;
+  font-size: 2rem;
+}
